@@ -47,7 +47,7 @@ CATEGORY_MAP = {
             '2': 'Sauce, Pickle & Paste',
             '3': 'Spices',
             '4': 'Pulses & Beans',
-            '5': 'Tea',
+            '5': 'Puffed & Flakes Rice',
             '6': 'Flour',
             '7': 'Oil',
             '8': 'Milk Products',
@@ -59,13 +59,13 @@ CATEGORY_MAP = {
         'subcategories': {
             '1': 'Basmati',
             '2': 'Sella Basmati',
-            '3': 'Idli',
+            '3': 'Idli/Ponni/Matta',
             '4': 'Soona Masoori',
             '5': 'Brown',
             '6': 'Glutonious',
             '7': 'Jasmin',
             '8': 'Sushi',
-            '9': 'Puffed & Flakes Rice'
+            '9': 'Chinigura/Samba'
         }
     },
     '03': {
@@ -100,10 +100,10 @@ CATEGORY_MAP = {
             '2': 'Juice',
             '3': 'Coconut Drinks',
             '4': 'Ice/Bubble Tea',
-            '5': 'Aloevera',
+            '5': 'Aloevera/Herbal',
             '6': 'Falooda/BasilSeed',
             '7': 'Water/Sparkling/Flavoured',
-            '8': 'Herbal',
+            '8': 'Tea & Cofee',
             '9': 'Soda/Limonade'
         }
     },
@@ -321,6 +321,7 @@ BRAND_MAP = {
     '183': 'TRS',
     '184': 'SQUID',
     '185': 'FLYING GOOSE',
+    '186': 'IBCO'
 }
 
 # Quantity map added (1‑digit codes)
