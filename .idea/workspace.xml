@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d90e15f-1ab3-4f6e-a6b8-0e982bdbecae" name="Changes" comment="addition new products, small modification in category">
+    <list default="true" id="9d90e15f-1ab3-4f6e-a6b8-0e982bdbecae" name="Changes" comment="add so far added products">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skus.db" beforeDir="false" afterPath="$PROJECT_DIR$/skus.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,11 +98,29 @@
       <option name="project" value="LOCAL" />
       <updated>1775235838659</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add new products">
+      <option name="closed" value="true" />
+      <created>1775237092450</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1775237092450</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add so far added products">
+      <option name="closed" value="true" />
+      <created>1775238035268</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1775238035268</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="addition new products, small modification in category" />
-    <option name="LAST_COMMIT_MESSAGE" value="addition new products, small modification in category" />
+    <MESSAGE value="add new products" />
+    <MESSAGE value="add so far added products" />
+    <option name="LAST_COMMIT_MESSAGE" value="add so far added products" />
   </component>
 </project>
