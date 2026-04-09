@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d90e15f-1ab3-4f6e-a6b8-0e982bdbecae" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/srSKUgen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/srSKUgen.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9d90e15f-1ab3-4f6e-a6b8-0e982bdbecae" name="Changes" comment="commit untracked files" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,6 +87,19 @@
       <option name="presentableId" value="Default" />
       <updated>1771173972545</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit untracked files">
+      <option name="closed" value="true" />
+      <created>1775238131587</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1775238131587</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit untracked files" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit untracked files" />
   </component>
 </project>
