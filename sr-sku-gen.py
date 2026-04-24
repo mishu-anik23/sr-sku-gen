@@ -693,6 +693,24 @@ PYQT_APP_TEXT = "Asian Supermarket SKU Manager"
 
 if QtWidgets is not None:
     class MainWindow(QtWidgets.QWidget):
+        @staticmethod
+        def create_searchable_brand_combobox(parent=None):
+            """Create a vendor/brand dropdown with keyword search support."""
+            combo = QtWidgets.QComboBox(parent)
+            combo.setEditable(True)
+            combo.setInsertPolicy(QtWidgets.QComboBox.InsertPolicy.NoInsert)
+            combo.setPlaceholderText("Search vendor by code or name")
+            combo.setMaxVisibleItems(15)
+            for code, name in sorted(BRAND_MAP.items()):
+                combo.addItem(f"{code} - {name}", code)
+
+            completer = QtWidgets.QCompleter(combo.model(), combo)
+            completer.setCaseSensitivity(QtCore.Qt.CaseSensitivity.CaseInsensitive)
+            completer.setFilterMode(QtCore.Qt.MatchFlag.MatchContains)
+            completer.setCompletionMode(QtWidgets.QCompleter.CompletionMode.PopupCompletion)
+            combo.setCompleter(completer)
+            return combo
+
         def __init__(self, db_path: str = DB_FILENAME):
             super().__init__()
             self.db_path = db_path
@@ -723,9 +741,7 @@ if QtWidgets is not None:
             form.addRow('Subcategory', self.subcategory_cb)
 
             # Brand (3-digit codes)
-            self.brand_cb = QtWidgets.QComboBox()
-            for code, name in sorted(BRAND_MAP.items()):
-                self.brand_cb.addItem(f"{code} - {name}", code)
+            self.brand_cb = self.create_searchable_brand_combobox(self)
             form.addRow('Brand', self.brand_cb)
 
             # Quantity
@@ -1073,11 +1089,10 @@ if QtWidgets is not None:
                 form.addRow('Subcategory', subcategory_cb)
                 
                 # Brand
-                brand_cb = QtWidgets.QComboBox()
-                for code, name in sorted(BRAND_MAP.items()):
-                    brand_cb.addItem(f"{code} - {name}", code)
-                    if code == sku_data['brand_code']:
-                        brand_cb.setCurrentIndex(brand_cb.count() - 1)
+                brand_cb = self.create_searchable_brand_combobox(edit_dialog)
+                brand_index = brand_cb.findData(sku_data['brand_code'])
+                if brand_index >= 0:
+                    brand_cb.setCurrentIndex(brand_index)
                 form.addRow('Brand', brand_cb)
                 
                 # Quantity
