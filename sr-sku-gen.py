@@ -321,7 +321,8 @@ BRAND_MAP = {
     '183': 'TRS',
     '184': 'SQUID',
     '185': 'FLYING GOOSE',
-    '186': 'IBCO'
+    '186': 'IBCO',
+    '187': 'NOEL'
 }
 
 # Quantity map added (1‑digit codes)
