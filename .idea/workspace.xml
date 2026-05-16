@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d90e15f-1ab3-4f6e-a6b8-0e982bdbecae" name="Changes" comment="addition new products, small modification in category">
+    <list default="true" id="9d90e15f-1ab3-4f6e-a6b8-0e982bdbecae" name="Changes" comment="add so far added products">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/skus.db" beforeDir="false" afterPath="$PROJECT_DIR$/skus.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +25,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/mishu-anik23/sr-sku-gen.git&quot;,
-    &quot;accountId&quot;: &quot;845c07f0-43bd-4f34-9afa-83efae94bbad&quot;
+    &quot;accountId&quot;: &quot;2a278d79-b678-40b1-b202-67cd49a2fc4d&quot;
   }
 }</component>
   <component name="ProjectColorInfo">{
@@ -42,9 +43,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/AM/PycharmProjects/sr-sku-gen&quot;
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
 }</component>
   <component name="RunManager">
@@ -79,7 +78,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-4c141bd692a7-e2d783800521-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.26927.90" />
+        <option value="bundled-python-sdk-53e2683a6804-9cdd278e9d02-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-251.26094.141" />
       </set>
     </attachedChunks>
   </component>
@@ -99,19 +98,29 @@
       <option name="project" value="LOCAL" />
       <updated>1775235838659</updated>
     </task>
-    <task id="LOCAL-00002" summary="addition new products, small modification in category">
+    <task id="LOCAL-00002" summary="add new products">
       <option name="closed" value="true" />
-      <created>1777066586012</created>
+      <created>1775237092450</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1777066586012</updated>
+      <updated>1775237092450</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add so far added products">
+      <option name="closed" value="true" />
+      <created>1775238035268</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1775238035268</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="addition new products, small modification in category" />
-    <option name="LAST_COMMIT_MESSAGE" value="addition new products, small modification in category" />
+    <MESSAGE value="add new products" />
+    <MESSAGE value="add so far added products" />
+    <option name="LAST_COMMIT_MESSAGE" value="add so far added products" />
   </component>
 </project>
