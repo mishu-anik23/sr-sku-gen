@@ -44,12 +44,12 @@ CATEGORY_MAP = {
         'name': 'Groceries & Staples',
         'subcategories': {
             '1': 'Noodle',
-            '2': 'Sauce, Pickle & Paste',
+            '2': 'Sauce/Pickle/Paste',
             '3': 'Spices',
             '4': 'Pulses & Beans',
             '5': 'Puffed & Flakes Rice',
             '6': 'Flour',
-            '7': 'Oil',
+            '7': 'Oil/Ghee',
             '8': 'Milk Products',
             '9': 'Preserved Food'
         }
@@ -90,7 +90,8 @@ CATEGORY_MAP = {
             '4': 'Vegetable',
             '5': 'Pastry',
             '6': 'Meat',
-            '7': 'Dessert'
+            '7': 'Dessert',
+            '8': 'Dumplings/Gyoza'
         }
     },
     '05': {
@@ -120,7 +121,7 @@ CATEGORY_MAP = {
         'subcategories': {
             '1': 'Chips & Crackers',
             '2': 'Biscuits',
-            '3': 'Rusk',
+            '3': 'Rusk/Cake Rusk',
             '4': 'Savories',
             '5': 'To Fry',
         }
@@ -153,29 +154,29 @@ BRAND_MAP = {
     '015': 'AQUAPEARL',
     '016': 'BAIJIA',
     '017': 'BAMBOO TREE',
-    '018': 'BICANO',
+    '018': 'BROOKE BOND',
     '019': 'BIK',
     '020': 'BINGGRAE',
     '021': 'BIBIGO',
-    '022': 'BOMBAY',
+    '022': 'BOMBAY SWEETS',
     '023': 'BRITANNIA',
     '024': 'CARNATION',
     '025': 'CARABAO',
     '026': 'CHIU CHOW',
     '027': 'CHUPA CHUPS',
     '028': 'COCK',
-    '029': 'COCON',
-    '030': 'COFE',
+    '029': 'COFE',
+    '030': 'CHAKRA',
     '031': 'CROWN FARM',
     '032': 'CYPRESSA',
-    '033': 'DAN',
+    '033': 'DAAWAT',
     '034': 'DABUR',
     '035': 'DETTOL',
     '036': 'DOUX',
     '037': 'EAGLOBE',
     '038': 'EFP',
     '039': 'ELEFANT',
-    '040': 'ELEPHANT',
+    '040': 'CHASHI',
     '041': 'ENCONA',
     '042': 'EVERBEST',
     '043': 'FARMER',
@@ -295,7 +296,7 @@ BRAND_MAP = {
     '157': 'RAFHAN',
     '158': 'RAITIP',
     '159': 'RADHUNI',
-    '160': 'RABBIT',
+    '160': 'RN BRAND',
     '161': 'REGAL',
     '162': 'RENUKA',
     '163': 'RICO',
@@ -322,7 +323,14 @@ BRAND_MAP = {
     '184': 'SQUID',
     '185': 'FLYING GOOSE',
     '186': 'IBCO',
-    '187': 'NOEL'
+    '187': 'NOEL',
+    '188': 'DIMES',
+    '189': 'KOLSON',
+    '190': 'TAKIS',
+    '191': 'TAPAL',
+    '192': 'TATA',
+    '193': 'TETLEY',
+    '194': 'BANOFUL'
 }
 
 # Quantity map added (1‑digit codes)
