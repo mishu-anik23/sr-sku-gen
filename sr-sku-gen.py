@@ -51,7 +51,7 @@ CATEGORY_MAP = {
             '6': 'Flour',
             '7': 'Oil/Ghee',
             '8': 'Milk Products',
-            '9': 'Preserved Food'
+            '9': 'Preserved/Readymix Food'
         }
     },
     '02': {

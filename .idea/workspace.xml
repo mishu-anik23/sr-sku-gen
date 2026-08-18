@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d90e15f-1ab3-4f6e-a6b8-0e982bdbecae" name="Changes" comment="add so far added products">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_16_2026_3_49_PM_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_5_16_2026_3_49_PM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/skus.db" beforeDir="false" afterPath="$PROJECT_DIR$/skus.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skus.db-shm" beforeDir="false" afterPath="$PROJECT_DIR$/skus.db-shm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/skus.db-wal" beforeDir="false" afterPath="$PROJECT_DIR$/skus.db-wal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sr-sku-gen.py" beforeDir="false" afterPath="$PROJECT_DIR$/sr-sku-gen.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
